@@ -15,4 +15,4 @@ The folder `spectra` contains the template spectra used in the notebook as well 
 
 **Data Challenge 2** 
 
-This subdirectory contains two demos where the Jupyter notebooks will guide you on how to extract 1D spectra from a 2D spectra. 
+This tool is designed to convert 2D Roman-like spectra into 1D form and will serve as the primary method for this data challenge.
