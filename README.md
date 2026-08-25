@@ -24,4 +24,5 @@ This third and final Data Challenge in the series discuss the 1d spectra extract
 **Technical Note**
 
 Because some of the files in this repo is large, they are managed by `git-lfs`. For these files to be successfully cloned, we need to have `git-lfs` installed. Installation instructions can be found <a href="https://git-lfs.com/">here</a>. If we have `homebrew`, we can do
+
    brew install git-lfs
