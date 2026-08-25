@@ -5,7 +5,7 @@ Training and development opportunities are critical for Spectroscopic Probes of 
 You can find more information on our website here: 
 https://sites.google.com/d/1D7d97SU3zLyetmqsLTg8EOFWZVEXBmxq/p/1z6Vn0h1NWFHApVYo-vFQ2rINHIfEWDYh/edit
 
-**Data Challenge 1**
+## Data Challenge 1
 
 This subdirectory is made to guide a user through degrading spectra to Roman Grism resolution and be able to calculate line flux and estimate redshift from the methods used here. 
 
@@ -13,6 +13,15 @@ The notebook `RomanDataChallenge.ipynb` walks the user through these goals and g
 
 The folder `spectra` contains the template spectra used in the notebook as well as galaxy spectra for the user to use in the notebook. 
 
-**Data Challenge 2** 
+## Data Challenge 2
 
 This tool is designed to convert 2D Roman-like spectra into 1D form and will serve as the primary method for this data challenge.
+
+## Data Challenge 3
+
+This third and final Data Challenge in the series discuss the 1d spectra extraction from sources in a full detector image. We discuss how to convert celestial to detector coordinates and how to find the trace of the spectrum using LSF centroiding.
+
+**Technical Note**
+
+Because some of the files in this repo is large, they are managed by `git-lfs`. For these files to be successfully cloned, we need to have `git-lfs` installed. Installation instructions can be found <a href="https://git-lfs.com/">here</a>. If we have `homebrew`, we can do
+   brew install git-lfs
